@@ -1,0 +1,14 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid rgba(128, 128, 128, 0.582);
+}
+.text {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid rgba(128, 128, 128, 0.411);
+  background: rgb(184, 191, 194);
+  text-align: center;
+}

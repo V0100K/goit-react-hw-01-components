@@ -18,7 +18,11 @@ const Statistics = ({ title, stats }) => {
       )}
       <ul className={style.list}>
         {stats.map((item) => (
-          <li className={style.item} key={item.id}>
+          <li
+            className={style.item}
+            key={item.id}
+            style={{ backgroundColor: getRandomColor() }}
+          >
             <span className={style.label}>{item.label}</span>
             <span className={style.percentage}>{item.percentage}</span>
           </li>
@@ -32,5 +36,3 @@ Statistics.propTypes = {
   stats: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
 };
 export default Statistics;
-
-//  ========= вставить
